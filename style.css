@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* parent */
+nav { 
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    background-color: black;
+}
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-style a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a {
+    font-size: 16px;
+    padding: 28px 17px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: #1ED760;
+}
+
+.menu span {
+    margin: auto 17px;
+    height: 20px;
+    width: 0.5px;
+    font-weight: 400;
+}
+
+/* MAIN SECTION */
+
+.bg-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2d46b9;
+    background-image: url("https://www.scdn.co/i/home/lieVariants/bursts-tablet.svg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    letter-spacing: -0.04em;
+    color: #1ED760;
+    font-size: 104px;
+    margin-bottom: 40px;
+    
+}
+
+.section-style {
+    width: 754px;
+}
+
+.intro {
+    color: #1ED760;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.get-button {
+    color: #2940a8;
+    background-color: #1ED760;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    padding: 16px 40px 16px;
+    font-size: 14px;
+    border-radius: 500px;
+    border-width: 0;
+    min-width: 160px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.get-button:hover {
+    background-color: #FFF;
+    color: #2940a8;
+}
+
+/* FOOTER */
+footer {
+    padding: 80px 0 50px;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer-upper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    min-height: 346px;
+}
+
+.footer-lower {
+    width: 100%;
+}
+
+.footer-left {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column h1 {
+    margin: 18px 0;
+    color: #919496;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .05em;
+}
+
+.column a {
+    text-decoration: none;
+    padding: 3px 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.column a:hover {
+    color: #1ED760;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer-icons a {
+    display: inline-flex;
+    margin-right: 15px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #222326;
+    overflow: hidden;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-icons a i {
+    padding-left: 4px;
+    padding-top: 3px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.footer-icons a:hover {
+    color: #1ED760;
+}
+
+
+.flag {
+    margin-left: 10px;
+    height: 18px;
+}
+
+.footer-lower p {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.footer-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-lower a {
+    text-decoration: none;
+    color: white;
+    padding: 1em 0;
+    font-size: 12px;
+    align-items: center;
+    color: #919496;
+}
+
+.footer-lower-left a {
+    margin-right: 24px;
+}
+
+.footer-lower a:hover {
+    color: #1ED760;
+}
+
+.footer-lower-right span {
+    margin: 0 15px 0 auto;
+    font-size: 12px;
+    align-self: center;
+    color: #919496;
+}
+
+
+/* LOGIN */
+.signUp {
+    max-width: 450px;
+    padding-bottom: 130px;
+    margin: 0px auto;
+    color: black;
+}
+
+.signUp-header {
+    padding: 40px 0px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp-header a {
+    text-align: center;
+}
+
+.signUp-header img {
+    height: 40px;
+}
+
+.signUp-facebook {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 22px;
+}
+
+.signUp-btn {
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    transition-duration: 33ms;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: rgb(58, 88, 151);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 500px;
+    padding: 17px 48px;
+}
+
+.signUp-btn:hover {
+    transform: scale(1.04);
+    background-color: rgb(107, 130, 177);
+    color: rgb(255, 255, 255);
+}
+
+.signUp-title {
+    margin-top: 40px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    color: black;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.line {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: rgb(117, 117, 117);
+    position: relative;
+    text-align: center;
+    width: 85%;
+    margin: 0px auto 1em;
+    display: flex;
+}
+
+
+
+form > h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    padding: 0px 0px 1em;
+    
+}
+
+.input-section {
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.input-question {
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    width: 100%;
+}
+
+.input-area {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+
+    border: 0.1px solid #bdbdbd !important;
+    border-radius: 4px;
+    padding: 14px;
+}
+
+.birthday {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.day {
+    width: 20%;
+}
+
+.month {
+    width: 40%;
+}
+
+.year {
+    width: 20%;
+}
+
+.non-question {
+    font-weight: 400;
+}
+
+.gender {
+    display: flex;
+}
+
+.male, .female, .non-binary {
+    width: 30%;
+    display: flex;
+}
+
+.radio-box {
+    margin-right: 10px;
+}
+
+.share span {
+    color: rgb(24, 24, 24);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    padding-left: 12px;
+    padding-right: 24px;
+}
+
+.info {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.info p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+}
+
+.info p a {
+    color: rgb(29, 185, 84);
+    text-decoration: underline;
+}
+
+.green-submit-btn {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    transition-duration: 33ms;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 500px;
+    padding: 17px 48px;
+    width: 100%;
+
+    margin-bottom: 24px;
+}
+
+.green-submit-btn:hover {
+    transform: scale(1.04);
+    background-color: rgb(30, 215, 96);
+    color: rgb(255, 255, 255);
+}
+
+.account {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+hr {
+    width: 40%;
+    height: 0.2px;
+    background-color: gray;
+}

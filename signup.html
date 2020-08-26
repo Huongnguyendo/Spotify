@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- GG fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="signUp">
+        <div class="signUp-header">
+            <a href="">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png" alt="">
+            </a>
+            <h2 class="signUp-title">
+                Sign up for free to start listening.
+            </h2>
+        </div>
+        
+        <div class="signUp-facebook">
+            <a class="signUp-btn" href="">
+                Sign up with Facebook
+            </a>
+        </div>
+        <div class="line">
+            <hr>
+            <span class="line-half">or</span>
+            <hr>
+        </div>
+        
+        <form action="">
+            <h2>Sign up with your email address</h2>
+            <div class="input-section email">
+                <span class="input-question">
+                    What's your email?
+                </span>
+                <input class="input-area" type="text" placeholder="Enter your email.">
+            </div>
+            <div class="input-section email">
+                <span class="input-question">
+                    Confirm your email
+                </span>
+                <input class="input-area" type="text" placeholder="Enter your email again.">
+            </div>
+            <div class="input-section pw">
+                <span class="input-question">
+                    Create a password
+                </span>
+                <input class="input-area" type="text" placeholder="Create a password.">
+            </div>
+            <div class="input-section name">
+                <span class="input-question">
+                    What should we call you?
+                </span>
+                <input class="input-area" type="text" placeholder="Enter a profile name.">
+            </div>
+            <h4 class="input-question">
+                What's your date of birth?
+            </h4>
+            <div class="input-section birthday">
+                
+                <div class="day">
+                    <span class="input-question non-question">
+                        Day
+                    </span>
+                    <input class="input-area" type="text" placeholder="DD">
+                </div>
+                <div class="month">
+                    <span class="input-question non-question">
+                        Month
+                    </span>
+                    <input class="input-area" type="text" placeholder="Month">
+                </div>
+                <div class="year">
+                    <span class="input-question non-question">
+                        Year
+                    </span>
+                    <input class="input-area" type="text" placeholder="YYYY">
+                </div>
+                
+            </div>
+            <h4 class="input-question">
+                What's your gender?
+            </h4>
+            <div class="input-section gender">
+                
+                <div class="male">
+                    <input type="radio" class="radio-box" id="male" name="gender" value="male">
+                    <span class="input-question non-question">
+                        Male
+                    </span>
+                </div>
+                <div class="female">
+                    <input type="radio" class="radio-box" id="female" name="gender" value="female">
+                    <span class="input-question non-question">
+                        Female
+                    </span>
+                </div>
+                <div class="non-binary">
+                    <input type="radio" class="radio-box" id="non-binary" name="gender" value="non-binary">
+                    <span class="input-question non-question">
+                        Non-binary
+                    </span>
+                </div>
+                
+            </div>
+            <div class="share">
+                <input type="checkbox" id="share">
+                <span>
+                    Share my registration data with Spotify's content providers for marketing purposes.
+                </span>
+            </div>
+            <div class="info">
+                <p>
+                    By clicking on Sign up, you agree to Spotify's 
+                    <a href="">
+                        Terms and Conditions of Use
+                    </a>
+                </p>
+                <p>
+                    To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's
+                    <a href="">
+                        Privacy Policy
+                    </a>
+                </p>
+                <button class="green-submit-btn" type="submit">SIGN UP</button>
+                <p class="account">
+                    Have an account?
+                    <a href="">
+                        Log in.
+                    </a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
